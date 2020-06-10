@@ -1,4 +1,3 @@
-
 function goToHome() {
     window.location.replace("index.html");
 }
@@ -8,3 +7,8 @@ function goToCharities() {
 function goToAbout() {
     window.location.replace("about.html");
 }
+
+$(function(){
+    alert("Test");
+    $("#includedContent").load("header.html"); 
+  });
