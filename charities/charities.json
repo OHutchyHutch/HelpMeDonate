@@ -8,5 +8,15 @@
         "charityName": "Doctors-Without-Borders",
         "charityGoal": "Doctors going where there are borders",
         "charityImage": "https://i.imgur.com/g7Zq39S.png"}
-    ]
+    ],
+    "environmental": [
+        {
+            "charityName": "NAACP",
+            "charityGoal": "Equal Rights",
+            "charityImage": "https://i.imgur.com/0tzWZS0.png"},
+        {
+            "charityName": "Doctors-Without-Borders",
+            "charityGoal": "Doctors going where there are borders",
+            "charityImage": "https://i.imgur.com/g7Zq39S.png"}
+        ]
 }

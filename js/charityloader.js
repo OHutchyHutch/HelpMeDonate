@@ -24,7 +24,7 @@ $( "#TestButtonButton" ).one('click', function () {
     console.log("Getting json");
     $.getJSON('charities/charities.json', function(data) {
         console.log("Reading Json");
-        $.each(data.currentevents, function(key, val) {
+        $.each(data.environmental, function(key, val) {
             charityName = val.charityName; 
             charityNameSpaces = charityName.replace('-', ' '); 
             $( "#TestEnvironment" ).append( "<div id=\""+val.charityName+"\"style=\"width:40%; display:inline-block; margin:4.5%;\"></div>");
