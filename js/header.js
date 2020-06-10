@@ -1,11 +1,11 @@
 function goToHome() {
-    window.location.replace("index.html");
+    window.location.replace("home");
 }
 function goToCharities() {
-    window.location.replace("charities.html");
+    window.location.replace("charities");
 }
 function goToAbout() {
-    window.location.replace("about.html");
+    window.location.replace("about");
 }
 
 $(function(){
