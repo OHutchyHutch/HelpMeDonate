@@ -1,0 +1,12 @@
+{
+    "currentevents": [
+    {
+        "charityName": "NAACP",
+        "charityGoal": "Equal Rights",
+        "charityImage": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/NAACP_seal.svg/1200px-NAACP_seal.svg.png"},
+    {
+        "fname": "daniel",
+        "lname": "marques",
+        "age": "19"
+    }]
+}
