@@ -1,4 +1,4 @@
-$( "#CurrentEventsButton" ).click(function() {
+$( "#CurrentEventsButton" ).one('click', function () {
     $.getJSON('charities/charities.json', function(data) {
         $.each(data.currentevents, function(key, val) {
             $( "#CurrentEventsCharities" ).append( "<div id=\""+val.charityName+"\"></div>");
