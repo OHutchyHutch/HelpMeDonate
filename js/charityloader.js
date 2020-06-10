@@ -20,7 +20,7 @@ $( "#CurrentEventsButton" ).one('click', function () {
     console.log("Goodbye!");
   });
 
-  $( "#TestButton" ).one('click', function () {
+  $( "#TestButtonButton" ).one('click', function () {
     console.log("Getting json");
     $.getJSON('charities/charities.json', function(data) {
         console.log("Reading Json");
