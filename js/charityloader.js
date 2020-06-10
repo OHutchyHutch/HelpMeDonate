@@ -3,7 +3,7 @@ $( "#CurrentEventsButton" ).one('click', function () {
         $.each(data.currentevents, function(key, val) {
             alert("Now doing : " + val.charityName);
             charityName = val.charityName; 
-            charityNameSpaces = originalString.replace('-', ' '); 
+            charityNameSpaces = charityName.replace('-', ' '); 
             $( "#CurrentEventsCharities" ).append( "<div id=\""+val.charityName+"\"></div>");
             $( "#"+val.charityName ).append( "<div class=\"card mb-3 my-5\" style=\"max-width: 540px;\" id=\""+ val.charityName +"CARD\"></div>");
             $( "#"+val.charityName+"CARD" ).append("<div class=\"row no-gutters\" id=\""+ val.charityName +"ROW\"></div>");
