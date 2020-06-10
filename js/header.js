@@ -9,6 +9,6 @@ function goToAbout() {
 }
 
 $(function(){
-    alert("Test");
-    $("#includedContent").load("header.html"); 
+    alert("Header loading!")
+    $("#header").load("../header.html"); 
   });
