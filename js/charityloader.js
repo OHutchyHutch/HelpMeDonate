@@ -11,6 +11,7 @@ $( "#CurrentEventsButton" ).one('click', function () {
             $( "#"+val.charityName+"CARDBODY" ).append("<h5 class=\"card-title\">"+val.charityName+"</h5>").append("<p class=\"card-text\">"+val.charityGoal+"</p>");
          })
     });
+    print("done")
   });
 
 
