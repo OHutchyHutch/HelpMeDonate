@@ -14,22 +14,3 @@ $( "#CurrentEventsButton" ).one('click', function () {
          })
     });
   });
-
-
-  /*
-  <div id="CHARITY TITLE" style="width:40%; display:inline-block; margin:4.5%;">
-                <div class="card mb-3 my-5 " style="max-width: 540px;">
-                            <div class="row">
-                              <div class="col-4">
-                                <img src="CHARITY IMAGE" class="card-img" alt="...">
-                              </div>
-                              <div class="col-8">
-                                <div class="card-body">
-                                  <p class="card-title">CHARITY TITLE</p>
-                                  <p class="card-text">CHARITY DESCRIPTION</p>
-                                </div>
-                              </div>
-                            </div>
-                    </div>
-                </div>
-  */
