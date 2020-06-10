@@ -1,12 +1,11 @@
 $( "#CurrentEventsButton" ).click(function() {
-    alert("JSON TEST 1");
     $.getJSON('charities/charities.json', function(data) {
-        alert("JSON TEST 2");
         $.each(data.currentevents, function(key, val) {
-            alert("JSON TEST 3");
             alert(val.charityName);
             alert(val.charityGoal);
             alert(val.charityImage);
+            $( ".CurrentEventsCharities" ).append( "<div id=\""+val.charityName+"\"></div>");
+            $( "."+val.charityName ).append( "<p>"+val.charityGoal+"</p>");
          })
     });
   });
