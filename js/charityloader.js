@@ -1,6 +1,9 @@
 $( "#CurrentEventsButton" ).click(function() {
+    alert("JSON TEST 1");
     $.getJSON('charities/testData.json', function(data) {
+        alert("JSON TEST 2");
         $.each(data.currentevents, function(key, val) {
+            alert("JSON TEST 3");
             alert(val.charityName);
             alert(val.charityGoal);
             alert(val.charityImage);
