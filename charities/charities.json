@@ -11,12 +11,12 @@
     ],
     "environmental": [
         {
-            "charityName": "NAACP",
-            "charityGoal": "Equal Rights",
-            "charityImage": "https://i.imgur.com/0tzWZS0.png"},
+            "charityName": "Environmental Defense Fund",
+            "charityGoal": "Fight environment",
+            "charityImage": "https://i.imgur.com/lfXkRji.png"},
         {
-            "charityName": "Doctors-Without-Borders",
-            "charityGoal": "Doctors going where there are borders",
-            "charityImage": "https://i.imgur.com/g7Zq39S.png"}
+            "charityName": "Test",
+            "charityGoal": "This is a test",
+            "charityImage": "https://img.icons8.com/plasticine/2x/google-logo.png"}
         ]
 }
