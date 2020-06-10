@@ -20,14 +20,14 @@ $( "#CurrentEventsButton" ).one('click', function () {
     console.log("Goodbye!");
   });
 
-  $( "#TestButtonButton" ).one('click', function () {
+$( "#TestButtonButton" ).one('click', function () {
     console.log("Getting json");
     $.getJSON('charities/charities.json', function(data) {
         console.log("Reading Json");
         $.each(data.currentevents, function(key, val) {
             charityName = val.charityName; 
             charityNameSpaces = charityName.replace('-', ' '); 
-            $( "#TestButton" ).append( "<div id=\""+val.charityName+"\"style=\"width:40%; display:inline-block; margin:4.5%;\"></div>");
+            $( "#TestEnvironment" ).append( "<div id=\""+val.charityName+"\"style=\"width:40%; display:inline-block; margin:4.5%;\"></div>");
             $( "#"+val.charityName ).append( "<div class=\"card mb-3 my-5\" style=\"max-width: 100%; max-height: 100%;\" id=\""+ val.charityName +"CARD\"></div>");
             $( "#"+val.charityName+"CARD" ).append("<div class=\"row no-gutters\" id=\""+ val.charityName +"ROW\"></div>");
             $( "#"+val.charityName+"ROW" ).append("<div class=\"col-md-4\" id=\""+ val.charityName +"IMAGEHOLD\"></div>");
