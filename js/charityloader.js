@@ -1,5 +1,7 @@
 $( "#CurrentEventsButton" ).one('click', function () {
+    console.log("Getting json");
     $.getJSON('charities/charities.json', function(data) {
+        console.log("Reading Json");
         $.each(data.currentevents, function(key, val) {
             charityName = val.charityName; 
             charityNameSpaces = charityName.replace('-', ' '); 
@@ -11,6 +13,9 @@ $( "#CurrentEventsButton" ).one('click', function () {
             $( "#"+val.charityName+"ROW" ).append("<div class=\"col-md-8\" id=\""+val.charityName+"CARDCOL\"></div>")
             $( "#"+val.charityName+"CARDCOL" ).append("<div class=\"card-body\" id=\""+val.charityName+"CARDBODY\"></div>")
             $( "#"+val.charityName+"CARDBODY" ).append("<h5 class=\"card-title\">"+charityNameSpaces+"</h5>").append("<p class=\"card-text\">"+val.charityGoal+"</p>");
+            console.log("Initialized " + val.charityName);
          })
+         console.log("Everything should be done now!");
     });
+    console.log("Goodbye!");
   });
