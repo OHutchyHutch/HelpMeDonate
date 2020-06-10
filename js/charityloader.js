@@ -3,7 +3,7 @@ $( "#CurrentEventsButton" ).one('click', function () {
         $.each(data.currentevents, function(key, val) {
             charityName = val.charityName; 
             charityNameSpaces = charityName.replace('-', ' '); 
-            $( "#CurrentEventsCharities" ).append( "<div id=\""+val.charityName+"\"tyle=\"width:40%; display:inline-block; margin:4.5%;\"></div>");
+            $( "#CurrentEventsCharities" ).append( "<div id=\""+val.charityName+"\"style=\"width:40%; display:inline-block; margin:4.5%;\"></div>");
             $( "#"+val.charityName ).append( "<div class=\"card mb-3 my-5\" style=\"max-width: 40%;\" id=\""+ val.charityName +"CARD\"></div>");
             $( "#"+val.charityName+"CARD" ).append("<div class=\"row no-gutters\" id=\""+ val.charityName +"ROW\"></div>");
             $( "#"+val.charityName+"ROW" ).append("<div class=\"col-md-4\" id=\""+ val.charityName +"IMAGEHOLD\"></div>");
