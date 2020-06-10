@@ -10,5 +10,5 @@ function goToAbout() {
 
 $(function(){
     alert("Header loading!")
-    $("#header").load("../header.html"); 
+    $("#header").load("header.html"); 
   });
