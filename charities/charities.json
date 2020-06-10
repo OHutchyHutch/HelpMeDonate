@@ -10,13 +10,13 @@
         "charityImage": "https://i.imgur.com/g7Zq39S.png"}
     ],
     "environmental": [
-        {
-            "charityName": "Environmental-Defense-Fund",
-            "charityGoal": "Fight environment",
-            "charityImage": "https://i.imgur.com/lfXkRji.png"},
-        {
-            "charityName": "Test",
-            "charityGoal": "This is a test",
-            "charityImage": "https://img.icons8.com/plasticine/2x/google-logo.png"}
-        ]
+    {
+        "charityName": "Doctors-Without-Border",
+        "charityGoal": "Fight environment",
+        "charityImage": "https://i.imgur.com/lfXkRji.png"},
+    {
+        "charityName": "Test",
+        "charityGoal": "This is a test",
+        "charityImage": "https://img.icons8.com/plasticine/2x/google-logo.png"}
+    ]
 }
