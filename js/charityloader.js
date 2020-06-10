@@ -1,5 +1,5 @@
 $( "#CurrentEventsButton" ).click(function() {
-    $.getJSON('testData.json', function(data) {
+    $.getJSON('charities/testData.json', function(data) {
         $.each(data.currentevents, function(key, val) {
             alert(val.charityName);
             alert(val.charityGoal);
