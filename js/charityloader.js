@@ -4,8 +4,8 @@ $( "#CurrentEventsButton" ).click(function() {
             alert(val.charityName);
             alert(val.charityGoal);
             alert(val.charityImage);
-            $( ".CurrentEventsCharities" ).append( "<div id=\""+val.charityName+"\"></div>");
-            $( "."+val.charityName ).append( "<p>"+val.charityGoal+"</p>");
+            $( "#CurrentEventsCharities" ).append( "<div id=\""+val.charityName+"\"></div>");
+            $( "#"+val.charityName ).append( "<p>"+val.charityGoal+"</p>");
          })
     });
   });
