@@ -9,5 +9,6 @@ function goToAbout() {
 }
 
 $(function(){
+    alert("Test")
     $("#header").load("header.html"); 
   });
