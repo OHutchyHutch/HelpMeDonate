@@ -5,7 +5,7 @@ $( "#CurrentEventsButton" ).click(function() {
             $( "#"+val.charityName ).append( "<div class=\"card mb-3 my-5\" style=\"max-width: 540px;\" id=\""+ val.charityName +"CARD\"></div>");
             $( "#"+val.charityName+"CARD" ).append("<div class=\"row no-gutters\" id=\""+ val.charityName +"ROW\"></div>");
             $( "#"+val.charityName+"ROW" ).append("<div class=\"col-md-4\" id=\""+ val.charityName +"IMAGEHOLD\"></div>");
-            $( "#"+val.charityName+"IMAGEHOLD" ).append("<img src=\""+ val.charityImage +"\" class=\"card-img\"");
+            $( "#"+val.charityName+"IMAGEHOLD" ).append("<img src=\""+ val.charityImage +"\" class=\"card-img\"> alt=\"IMAGE FAILED TO LOAD\"");
          })
     });
   });
