@@ -1,6 +1,7 @@
 $( "#CurrentEventsButton" ).one('click', function () {
     $.getJSON('charities/charities.json', function(data) {
         $.each(data.currentevents, function(key, val) {
+            alert("Now doing : " + val.charityName);
             $( "#CurrentEventsCharities" ).append( "<div id=\""+val.charityName+"\"></div>");
             $( "#"+val.charityName ).append( "<div class=\"card mb-3 my-5\" style=\"max-width: 540px;\" id=\""+ val.charityName +"CARD\"></div>");
             $( "#"+val.charityName+"CARD" ).append("<div class=\"row no-gutters\" id=\""+ val.charityName +"ROW\"></div>");
@@ -9,6 +10,7 @@ $( "#CurrentEventsButton" ).one('click', function () {
             $( "#"+val.charityName+"ROW" ).append("<div class=\"col-md-8\" id=\""+val.charityName+"CARDCOL\"></div>")
             $( "#"+val.charityName+"CARDCOL" ).append("<div class=\"card-body\" id=\""+val.charityName+"CARDBODY\"></div>")
             $( "#"+val.charityName+"CARDBODY" ).append("<h5 class=\"card-title\">"+val.charityName+"</h5>").append("<p class=\"card-text\">"+val.charityGoal+"</p>");
+            alert("Done Doing : " + val.charityName);
          })
     });
     console.log("Done loading!");
