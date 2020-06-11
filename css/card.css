@@ -1,7 +1,7 @@
-.card {
+.cardoverall {
     transition: 0.5s;
-    height: auto;
+    height: 100%;
 }
-.card:hover {
+.cardoverall:hover {
     transform: scale(1.1);
   }
