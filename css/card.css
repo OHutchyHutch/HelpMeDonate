@@ -1,5 +1,6 @@
 .card {
     transition: 0.5s;
+    height: auto;
 }
 .card:hover {
     transform: scale(1.1);
