@@ -17,7 +17,7 @@ function populateCharities(val, location){
   charityNameSpaces = charityName.replaceAll("-"," ")
   $( location ).append( '<div id="'+val.charityName+'"style="width:40%; display:inline-block; margin:4.5%;"></div>');
   $( "#"+val.charityName ).append( '<div class="card mb-3 my-5" style="max-width: 100%; max-height: 90%;" id="'+ val.charityName +'CARD"></div>');
-  $( "#"+val.charityName+"CARD" ).append('<div class="row no-gutters card" id="'+ val.charityName +'ROW"></div>');
+  $( "#"+val.charityName+"CARD" ).append('<div class="row no-gutters" id="'+ val.charityName +'ROW"></div>');
   $( "#"+val.charityName+"ROW" ).append('<div class="col-md-4" id="'+ val.charityName +'IMAGEHOLD"></div>');
   $( "#"+val.charityName+"IMAGEHOLD" ).append('<img src="'+ val.charityImage +'" class="card-img" alt="IMAGE FAILED TO LOAD">');
   $( "#"+val.charityName+"ROW" ).append('<div class="col-md-8" id="'+val.charityName+'CARDCOL"></div>')
