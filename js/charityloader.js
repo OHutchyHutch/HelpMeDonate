@@ -15,7 +15,7 @@
 function populateCharities(val, location){
   charityName = val.charityName; 
   charityNameSpaces = charityName.replaceAll("-"," ")
-  $( location ).append('<a id="'+val.charityName+'LINK" href='+val.charityLink+' style="font-size:inherit"></a>')
+  $( location ).append('<a id="'+val.charityName+'LINK" href='+val.charityLink+' style="font-size:inherit;font-weight: normal;"></a>')
   $( '#'+val.charityName+'LINK' ).append( '<div id="'+val.charityName+'"style="width:40%; display:inline-block; margin:4.5%;"></div>');
   $( '#'+val.charityName ).append( '<div class="card mb-3 my-5 cardoverall" style="max-width: 100%; max-height: 90%;" id="'+ val.charityName +'CARD"></div>');
   $( '#'+val.charityName+'CARD' ).append('<div class="row no-gutters" id="'+ val.charityName +'ROW"></div>');
