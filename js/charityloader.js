@@ -25,9 +25,3 @@ function populateCharities(val, location){
   $( '#'+val.charityName+'CARDCOL' ).append('<div class="card-body" id="'+val.charityName+'CARDBODY"></div>')
   $( '#'+val.charityName+'CARDBODY' ).append('<h5 class="card-title">'+charityNameSpaces+'</h5>').append('<p class="card-text">'+val.charityGoal+'</p>');
 }
-
-<a href="http://example.com">
-  <div>
-     anything
-  </div>
-</a>
