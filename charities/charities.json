@@ -9,8 +9,12 @@
         "charityName": "Doctors-Without-Borders",
         "charityGoal": "Médecins Sans Frontières, sometimes rendered in English as Doctors Without Borders, is an international humanitarian medical non-governmental organisation of French origin best known for its projects in conflict zones and in countries affected by endemic diseases.",
         "charityImage": "https://i.imgur.com/g7Zq39S.png",
-        "charityLink": "https://www.doctorswithoutborders.org/"}
-
+        "charityLink": "https://www.doctorswithoutborders.org/"},
+    {
+        "charityName": "Partners-In-Health",
+        "charityGoal": "Our mission is to provide a preferential option for the poor in health care. By establishing long-term relationships with sister organizations based in settings of poverty, Partners In Health strives to achieve two overarching goals: to bring the benefits of modern medical science to those most in need of them and to serve as an antidote to despair.",
+        "charityImage": "https://i.imgur.com/bZC4S5D.png",
+        "charityLink": "https://www.pih.org/"}
     ],
     "environmental": [
     {
