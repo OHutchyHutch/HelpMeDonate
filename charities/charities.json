@@ -2,12 +2,12 @@
     "currentevents": [
     {
         "charityName": "NAACP",
-        "charityGoal": "\"The mission of the National Association for the Advancement of Colored People (NAACP) is to secure the political, educational, social, and economic equality of rights in order to eliminate race-based discrimination and ensure the health and well-being of all persons.\"",
+        "charityGoal": "The mission of the National Association for the Advancement of Colored People (NAACP) is to secure the political, educational, social, and economic equality of rights in order to eliminate race-based discrimination and ensure the health and well-being of all persons.",
         "charityImage": "https://i.imgur.com/0tzWZS0.png",
         "charityLink": "https://www.naacp.org/"},
     {
         "charityName": "Doctors-Without-Borders",
-        "charityGoal": "\"Médecins Sans Frontières, sometimes rendered in English as Doctors Without Borders, is an international humanitarian medical non-governmental organisation of French origin best known for its projects in conflict zones and in countries affected by endemic diseases.\"",
+        "charityGoal": "Médecins Sans Frontières, sometimes rendered in English as Doctors Without Borders, is an international humanitarian medical non-governmental organisation of French origin best known for its projects in conflict zones and in countries affected by endemic diseases.",
         "charityImage": "https://i.imgur.com/g7Zq39S.png",
         "charityLink": "https://www.doctorswithoutborders.org/"}
 
