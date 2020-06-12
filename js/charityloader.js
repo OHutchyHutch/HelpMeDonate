@@ -21,7 +21,7 @@ function populateCharities(val, location){
   console.log("charityNameSpaces created successfully");
   $( location ).append('<a id="'+val.charityName+'LINK" href='+val.charityLink+' style="font-size:inherit;font-weight: normal;"></a>');
   $( '#'+val.charityName+'LINK' ).append( '<div id="'+val.charityName+'"style="width:40%; display:inline-block; margin:4.5%;"></div>');
-  $( '#'+val.charityName ).append( '<div class="card mb-3 my-3 cardoverall" style="max-width: 100%; max-height: 90%;" id="'+ val.charityName +'CARD"></div>');
+  $( '#'+val.charityName ).append( '<div class="card mb-3 my-2 cardoverall" style="max-width: 100%; max-height: 90%;" id="'+ val.charityName +'CARD"></div>');
   $( '#'+val.charityName+'CARD' ).append('<div class="row no-gutters" id="'+ val.charityName +'ROW"></div>');
   $( '#'+val.charityName+'ROW' ).append('<div class="col-md-4" id="'+ val.charityName +'IMAGEHOLD"></div>');
   $( '#'+val.charityName+'IMAGEHOLD' ).append('<img src="'+ val.charityImage +'" class="card-img" alt="IMAGE FAILED TO LOAD">');
