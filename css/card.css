@@ -1,7 +1,6 @@
 .cardoverall {
     transition: 0.5s;
     height: 100%;
-    font-size: 1vw;
 }
 .cardoverall:hover {
     transform: scale(1.1);
