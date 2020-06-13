@@ -27,5 +27,5 @@ function populateCharities(val, location){
   $( '#'+val.charityName+'IMAGEHOLD' ).append('<img src="'+ val.charityImage +'" class="card-img" alt="IMAGE FAILED TO LOAD">');
   $( '#'+val.charityName+'ROW' ).append('<div class="col-md-8" id="'+val.charityName+'CARDCOL"></div>');
   $( '#'+val.charityName+'CARDCOL' ).append('<div class="card-body" id="'+val.charityName+'CARDBODY"></div>');
-  $( '#'+val.charityName+'CARDBODY' ).append('<h5 class="card-title">'+charityNameSpaces+'</h5>').append('<p class="card-text">'+val.charityGoal+'</p>');
+  $( '#'+val.charityName+'CARDBODY' ).append('<h5 class="card-title" style="font-size: 1.5vw;">'+charityNameSpaces+'</h5>').append('<p class="card-text"  style="font-size: 1vw;">'+val.charityGoal+'</p>');
 }
