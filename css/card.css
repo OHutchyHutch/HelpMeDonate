@@ -2,7 +2,7 @@
     transition: 0.5s;
     width: 100%;
     /*100% for width, 9 for ? second number for Y value (smaller makes it larger)*/
-    padding-bottom: calc(100%*9/20);
+    padding-bottom: calc(100%*9/26);
 }
 .cardoverall:hover {
     transform: scale(1.1);
