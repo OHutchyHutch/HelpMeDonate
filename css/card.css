@@ -1,7 +1,7 @@
 .cardoverall {
     transition: 0.5s;
     height: 100%;
-    padding-right: calc(100%*9/16);
+    padding-right: calc(100%*2/3);
 }
 .cardoverall:hover {
     transform: scale(1.1);
