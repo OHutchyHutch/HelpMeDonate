@@ -2,7 +2,7 @@ var acc = document.getElementsByClassName("accordion");
 var i;
 
 for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
+  acc[i].addEventListener('click touchstart', function() {
     this.classList.toggle("active");
     var panel = this.nextElementSibling;
     if (panel.style.maxHeight) {
@@ -14,7 +14,7 @@ for (i = 0; i < acc.length; i++) {
 }
 
 
-for (i = 0; i < acc.length; i++) {
+/*for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("tap", function() {
     this.classList.toggle("active");
     var panel = this.nextElementSibling;
@@ -24,4 +24,4 @@ for (i = 0; i < acc.length; i++) {
       panel.style.maxHeight = panel.scrollHeight + "px";
     }
   });
-}
+} */
