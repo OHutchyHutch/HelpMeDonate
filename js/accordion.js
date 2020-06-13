@@ -15,7 +15,7 @@ for (i = 0; i < acc.length; i++) {
 
 
 for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("touchstart", function() {
+  acc[i].addEventListener("tap", function() {
     this.classList.toggle("active");
     var panel = this.nextElementSibling;
     if (panel.style.maxHeight) {
