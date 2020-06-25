@@ -1,7 +1,20 @@
-.text {
-    text-align: center;
-    justify-content: center;
+span {
+    display: table-cell;
+    vertical-align: middle;
+    text-align:center;
     color: white;
     font-size: calc(12px + (22 - 12) * ((100vw - 300px) / (1600 - 300)));
     line-height: calc(1em + (1.5 - 1) * ((100vw - 300px)/(1600 - 300)));
+}
+img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 60%;
+        width: 60%;
+
+}
+.textHold {
+    position:absolute; height:100%; width:100%;
+    display: table;
 }
