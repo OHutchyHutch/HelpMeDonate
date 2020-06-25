@@ -1,5 +1,24 @@
 .text {
     text-align: center;
     justify-content: center;
-    font-size: 10%;
+    font-size: 1vw;
 }
+
+@media (min-width:600px) {
+    text {
+      font-size: 1.2vw;
+    }
+  }
+  
+  @media (min-width:800px) {
+    text {
+      font-size: 1.1vw;
+    }
+  }
+  
+  @media (min-width:1000px) {
+    text {
+      /* Never get larger than this */
+      font-size: 1vw;
+    }
+  }
