@@ -10,3 +10,10 @@
 .cardoverall:hover {
     transform: scale(1.1);
   }
+.cardText {
+    font-size: calc(12px + (20 - 12) * ((100vw - 300px) / (1600 - 300)));
+    line-height: calc(1em + (1.5 - 1) * ((100vw - 300px)/(1600 - 300)));
+  }
+.cardTitle {
+    font-size: calc(14px + (22 - 14) * ((100vw - 300px) / (1600 - 300)));
+  }
