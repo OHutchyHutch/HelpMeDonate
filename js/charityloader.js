@@ -7,6 +7,9 @@ $(function() {
        $.each(data.environmental, function(key, val) {
         populateCharities(val, "#EnviromentalCharities")
        })
+       $.each(data.education, function(key, val) {
+        populateCharities(val, "#EducationCharities")
+       })
 
     });
 });

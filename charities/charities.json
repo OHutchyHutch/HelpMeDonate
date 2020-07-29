@@ -21,11 +21,13 @@
         "charityName": "Environmental-Defense-Fund",
         "charityGoal": "Fight environment",
         "charityImage": "https://i.imgur.com/lfXkRji.png",
-        "charityLink": "https://www.edf.org/"},
-    {
-        "charityName": "Test",
-        "charityGoal": "This is a test",
-        "charityImage": "https://img.icons8.com/plasticine/2x/google-logo.png",
-        "charityLink": "https://www.google.com/"}
-    ]
+        "charityLink": "https://www.edf.org/"}
+    ],
+    "education": [
+        {
+            "charityName": "Equal-Opportunity-Schools",
+            "charityGoal": "Help ensure that students of color and low-income students have equitable access to America’s most academically intense high school programs and succeed at the highest levels.",
+            "charityImage": "https://media.glassdoor.com/sqll/1311566/equal-opportunity-schools-squarelogo-1503655750206.png",
+            "charityLink": "https://eoschools.org/"}
+        ]
 }
