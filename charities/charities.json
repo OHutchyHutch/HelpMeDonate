@@ -19,15 +19,25 @@
     "environmental": [
     {
         "charityName": "Environmental-Defense-Fund",
-        "charityGoal": "Fight environment",
+        "charityGoal": "We address today's most urgent environmental challenges. Working in partnership with others, we focus where we're best positioned to help, based on our strengths.",
         "charityImage": "https://i.imgur.com/lfXkRji.png",
-        "charityLink": "https://www.edf.org/"}
+        "charityLink": "https://www.edf.org/"},
+    {
+        "charityName": "Environmental-and-Energy-Study-Institute",
+        "charityGoal": "Our primary goal is to accelerate the transition to a new, low-emissions economy based on energy efficiency and renewable energy.",
+        "charityImage": "https://i.imgur.com/ewuifzh.png",
+        "charityLink": "https://www.eesi.org/"},
+    {
+        "charityName": "National-Forest-Foundation",
+        "charityGoal": "The National Forest Foundation, chartered by Congress, engages Americans in community-based and national programs that promote the health and public enjoyment of the 193-million-acre National Forest System, and administers private gifts of funds and land for the benefit of the National Forests.",
+        "charityImage": "https://i.imgur.com/nJJoPwi.png",
+        "charityLink": "https://www.nationalforests.org/"}
     ],
     "education": [
-        {
-            "charityName": "Equal-Opportunity-Schools",
-            "charityGoal": "Help ensure that students of color and low-income students have equitable access to America’s most academically intense high school programs and succeed at the highest levels.",
-            "charityImage": "https://media.glassdoor.com/sqll/1311566/equal-opportunity-schools-squarelogo-1503655750206.png",
-            "charityLink": "https://eoschools.org/"}
-        ]
+    {
+        "charityName": "Equal-Opportunity-Schools",
+        "charityGoal": "Help ensure that students of color and low-income students have equitable access to America’s most academically intense high school programs and succeed at the highest levels.",
+        "charityImage": "https://media.glassdoor.com/sqll/1311566/equal-opportunity-schools-squarelogo-1503655750206.png",
+        "charityLink": "https://eoschools.org/"}
+    ]
 }
